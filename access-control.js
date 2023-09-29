@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Check if the current hour is not between 23 and 2
     //if (((currentHour >= 8 && currentMinute >= 57) && (currentHour <=9 && currentMinute <= 10)) || ((currentHour >=9  && currentMinute >= 10) && (currentHour <=9 && currentMinute <= 12)))
-    if ((currentHour >= 10) && (currentHour <= 24))
+    if ((currentHour >= 23) && (currentHour <= 02))
     {
         accessContent.style.display = "none";
         nextPage.style.display = "block";
