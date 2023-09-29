@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+}
+
+#clock {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+
+#page-refresh-button,
+button {
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 34%;
+}
+
+#continue{
+    padding: 5px 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 34%;
+}
+
+p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+h1 {
+    font-size: medium;
+    text-align: center;
+    margin: 33%;
+}
+
+.emoji {
+    font-size: 4ch;
+}
+
+#analog {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
